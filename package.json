@@ -1,0 +1,26 @@
+{
+  "name": "AjustaNomesMigrados",
+  "version": "1.0.0",
+  "description": "Ajustar nomes migrados que estejam sem espaço ou faltando alguma parte do nome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "pkg":{
+    "assets":[
+      "view/\\*\\*/\\*"
+    ],
+    "target": [
+      "node7"
+    ]
+  },
+  "author": "Guilherme",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "node-firebird": "^1.0.0",
+    "pkg": "^5.8.0",
+    "sequelize": "^6.25.1"
+  }
+}
